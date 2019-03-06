@@ -16,6 +16,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func calOnOffSwitch(_ sender: UISwitch) {
+        if sender.isOn{
+            result.text = "0"
+        }else{
+            result.text = ""
+        }
+    }
+    
 }
 
